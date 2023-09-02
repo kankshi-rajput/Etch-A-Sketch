@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Etch-A-Sketch</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="heading">
+            <h1>Etch A Sketch</h1>
+        </div>
+        <div class="options">
+            <button class="btnopt" id="pickerbtn"> Pick: &nbsp;<input type="color" value="#000000" id="picker"></button>
+            <button class="btnopt" id="rainbow"> Rainbow </button>
+            <button class="btnopt" id="eraser"> Eraser </button>
+            <button class="btnopt" id="reset"> Reset </button>
+        </div>
+        <div id="size"> 16 X 16</div>
+        <div id="slider">
+            <input type="range" min="1" max="64" value="16" id="range">  
+        </div>
+        <div id="container"></div>
+        <br><br>
+        <div id="footer">
+            <center>So what did you draw?</center>
+            <br>
+            <center> © Kankshi Rajput </center>
+            <br> 
+        </div>
+        <script src="script.js"></script>
+      </body>
+</html>
